@@ -17,13 +17,23 @@ body{
 }
 
 .container{
+    width: 100%;
+    max-width: 980px;   
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
-    line-height: 10px;
-    padding: 0px;
-    margin: 0;
-    margin-top: 0;
-    
+    gap: 80px;
 }
 
+
+.fb-brand{
+    display: flex;
+    max-width: 550px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.fb-logo{
+    font-size: 40px;
+    color: #1877f2;
+    
+}
