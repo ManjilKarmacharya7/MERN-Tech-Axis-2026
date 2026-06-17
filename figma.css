@@ -147,6 +147,8 @@ nav {
   overflow: hidden;
   background: #e8e2da;
   border-radius: 8px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .hero-image img {
@@ -168,6 +170,7 @@ nav {
 .cards {
   padding: 60px 60px;
   background: #faf9f8;
+  margin-top: 20px;
 }
 
 
@@ -189,10 +192,10 @@ nav {
 .cards-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
+  gap: 60px;
   max-width: 1200px;
   margin: 0 auto;
-  margin-top: 100px;
+  
 }
 
 /* Individual Card */
